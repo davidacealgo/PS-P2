@@ -1,0 +1,12 @@
+<body>
+<center>
+  <h1>Programa 2 PS</h1>
+  <textarea rows="20" cols="100" id="texto" class="textarea"> </textarea>
+  <br/>
+  <br/>
+  <input type="file" id="filesx" name="filesx[]" onChange={{action "metodo_leerArchivo"}} multiple="true" />
+  <input type="button" id="contar" onClick={{action "metodo_contar"}}/>
+  <h1 id="texto_resultado"></h1>
+  <h1 id="resultado"></h1>
+</center>
+</body>
